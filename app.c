@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "term_utils.c"
+#include "term_utils.h"
 // TODO: Add the include directive for the custom library header file here
 
 int main(void) {
@@ -9,11 +9,11 @@ int main(void) {
     // TODO: Call the function to print a divider line
     print_divider();
     // TODO: Set the text color to GREEN using the library function
-    set_color(GREEN);
+    set_text_color(GREEN);
     printf("System Status: ONLINE\n");
 
     // TODO: Set the text color to RED using the library function
-    set_color(RED);
+    set_text_color(RED);
     printf("Alert: Modular compilation in progress...\n");
 
     // TODO: Reset the text color back to default
